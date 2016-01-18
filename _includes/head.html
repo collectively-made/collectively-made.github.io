@@ -1,0 +1,88 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Collectively Made {% if page.title %}| {{ page.title }}{% else %}| Building Better Together {% endif %}</title>
+<meta content="{{ site.title }} {% if page.title %}| {{ page.title }}{% endif %}" property="og:title" />
+{% if page.excerpt %}
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+{% else %}
+<meta name="description" content="Collectively Made is a collective of creators that make websites, mobile apps, designs, products, brands, prototypes, collaborations, web apps, software, and strategies for people with good ideas." />
+{% endif %}
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}" />
+{% else %}
+<meta name="keywords" content="Design, Web Design, Graphic Design, UI, UX, Strategy, UI Design, Interface Design, Application Design, Prototyping, Product Design, Front-end Dev, User Experience, UX Design, Software, Development, Hardware, Project, Full Stack"/>
+{% endif %}
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Collectively Made" />
+<meta name="google-site-verification" content="ZTtm7fnxRe67LjqiIKY1mZ_knPSNv5py9KArnXI16D8" />
+
+<!-- icons -->
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/android-chrome-192x192.png" sizes="192x192">
+<meta name="theme-color" content="{{ site.theme-color-attr }}">
+<meta name="msapplication-TileColor" content="{{ site.ms-tile-color }}">
+<meta name="msapplication-TileImage" content="{{ site.baseurl }}/mstile-310x310.png">
+<!-- /icons -->
+
+<!-- og tags -->
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{% if page.title %} {{ site.name }} | {{ page.title }}{% else %}{{ site.name }}{% endif %}">
+<meta property="og:locale" content="{{ site.lang }}">
+{% if page.og-image %}
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.og-image }}">
+{% else %}
+  {% if page.cover-image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.cover-image }}">
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/og-image.jpg">
+  {% endif %}
+{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<meta property="og:description" content="
+{% if page.summary %}
+{{ page.summary }}
+{% else %}
+{{ site.description.meta }}
+{% endif %}">
+<!-- /og tags -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/modernizr.js"></script>
+<script src="{{ site.baseurl }}/js/fitvids.js"></script>
+<script src="{{ site.baseurl }}/js/main.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:600,900|Lato:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css">
+{% if site.display-social-icons %}
+<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.css">
+{% endif %}
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+{% if page.home != true or site.show-subtitle == false and site.display-social-icons == false %}
+<style>
+header {
+  margin-bottom: 40px;
+}
+@media all and (min-width: 500px) {
+  header {
+    margin-bottom: 100px;
+  }
+}
+header::after {
+  display: none;
+}
+</style>
+{% endif %}

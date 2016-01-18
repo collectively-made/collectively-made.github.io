@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Collectively Made</title>
+		<description></description>
+		<link>http://www.collectivelymade.com</link>
+		<atom:link href="http://www.collectivelymade.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Student Engagement App</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;dl&gt;
+&lt;dt&gt;Goal&lt;/dt&gt; &lt;dd&gt;more responsive student technology services&lt;/dd&gt;
+&lt;dt&gt;Challenge&lt;/dt&gt; &lt;dd&gt;how can Student Technology get more insight about the demand for their services&lt;/dd&gt;
+&lt;/dl&gt;
+
+</description>
+				
+				<pubDate>Sun, 27 Sep 2015 00:00:00 -0500</pubDate>
+				<link>http://www.collectivelymade.com/student-engagemnet-app</link>
+				<guid isPermaLink="true">http://www.collectivelymade.com/student-engagemnet-app</guid>
+			</item>
+		
+			<item>
+				<title>Data Viewer</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;QIS staff need the ability to view the performance of locations to make informed decisions about improving their quality. To do that we created a system that would aggregate the submissions collected, allowing staff to measure areas against each other and against time. Because most questions are Yes or No questions, we can measure quality of service by looking at the percent of ‘yes’ answers given.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 10 Sep 2015 00:00:00 -0500</pubDate>
+				<link>http://www.collectivelymade.com/data-viewer</link>
+				<guid isPermaLink="true">http://www.collectivelymade.com/data-viewer</guid>
+			</item>
+		
+			<item>
+				<title>Web Form Submitter</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;/img/form-submitter-1.png&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 05 Sep 2015 00:00:00 -0500</pubDate>
+				<link>http://www.collectivelymade.com/web-form-submitter</link>
+				<guid isPermaLink="true">http://www.collectivelymade.com/web-form-submitter</guid>
+			</item>
+		
+			<item>
+				<title>Kiosk</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;&amp;lt;!– Scan NCARD for quick information about the student.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 22 Jul 2015 00:00:00 -0500</pubDate>
+				<link>http://www.collectivelymade.com/kiosk</link>
+				<guid isPermaLink="true">http://www.collectivelymade.com/kiosk</guid>
+			</item>
+		
+			<item>
+				<title>Mowdo App Prototype</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;In 2014, we were selected to team up with Mowdo and help them create a prototype in order to validate their idea and help them pitch to investors. Mowdo was taking part in Lincoln’s very own “Demo Day” and believed that rapid prototyping a proof of concept would give them a leg up in their goal of generating money and interest. We identified a variety of features that would give users an end-to-end experience in the mobile app. Due to budget and time constraints, we opted not to build anything but rather conceptualize what this app might look like. We designed over 50 screen states that were stitched together for a presentation.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 15 Jul 2014 00:00:00 -0500</pubDate>
+				<link>http://www.collectivelymade.com/mowdo</link>
+				<guid isPermaLink="true">http://www.collectivelymade.com/mowdo</guid>
+			</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.collectivelymade.com/student-engagemnet-app</loc>
+    <lastmod>2015-09-27T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/data-viewer</loc>
+    <lastmod>2015-09-10T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/web-form-submitter</loc>
+    <lastmod>2015-09-05T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/kiosk</loc>
+    <lastmod>2015-07-22T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/mowdo</loc>
+    <lastmod>2014-07-15T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/about/</loc>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/contact/</loc>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/</loc>
+  </url>
+  <url>
+    <loc>http://www.collectivelymade.com/work/</loc>
+  </url>
+</urlset>
