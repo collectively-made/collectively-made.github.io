@@ -3,7 +3,7 @@ layout: post
 title: Data Viewer
 category: QIS
 cover-image: performance-dashboard.jpg
-summary: Reducing the number of steps needed to view performance.
+subtitle: Reducing the number of steps needed to view performance.
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>
     - name: <a href="mailto:bringbota@collectivelymade.com">Bode Alabi</a>

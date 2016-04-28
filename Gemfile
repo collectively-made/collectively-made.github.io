@@ -1,5 +1,10 @@
-source 'http://rubygems.org'
+# A sample Gemfile
+source "https://rubygems.org"
 
-gem 'github-pages'
-gem 'html-proofer'
-gem 'jekyll-sitemap'
+gem "jekyll"
+gem "s3_website"
+gem "rouge"
+gem "redcarpet"
+gem "pretty"
+gem "json"
+gem "jekyll-sitemap"

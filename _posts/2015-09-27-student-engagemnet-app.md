@@ -3,17 +3,21 @@ layout: post
 cover-image: ST-logo.jpg
 title: Student Engagement App
 category: UNL
-summary: A convenient way to monitor student engagement across touchpoints.
+subtitle: A convenient way to monitor student engagement across touchpoints.
 
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>
     - name: <a href="mailto:bringbota@collectivelymade.com">Bode Alabi</a>
     - name: <a href="mailto:alex@collectivelymade.com">Alexander Russell</a>
 ---
-<dl>
-<dt>Goal</dt> <dd>more responsive student technology services</dd>
-<dt>Challenge</dt> <dd>how can Student Technology get more insight about the demand for their services</dd>
-</dl>
+
+## Goal:
+    more responsive student technology services.
+
+## Challenge:
+    how can Student Technology get more insight about the demand for their services.
+
+<img src="/img/ST-logo.jpg" />
 
 Student Technology is a team of the Information Technology department at the University of Nebraska at Lincoln. Formally known as Student Technology Training, the team primarily conducted workshops for students about university supported technologies.
 

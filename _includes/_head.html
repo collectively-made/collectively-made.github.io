@@ -1,0 +1,53 @@
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Collectively Made {% if page.title %}| {{ page.title }}{% else %}| Building Better Together {% endif %}</title>
+  <meta content="{{ site.title }} {% if page.title %}| {{ page.title }}{% endif %}" property="og:title" />
+  {% if page.excerpt %}
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+  {% else %}
+  <meta name="description" content="Collectively Made is a collective of creators that make websites, mobile apps, designs, products, brands, prototypes, collaborations, web apps, software, and strategies for people with good ideas." />
+  {% endif %}
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+  <meta name="keywords" content="Design, Web Design, Graphic Design, UI, UX, Strategy, UI Design, Interface Design, Application Design, Prototyping, Product Design, Front-end Dev, User Experience, UX Design, Software, Development, Hardware, Project, Full Stack"/>
+  {% endif %}
+
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Collectively Made" />
+  <meta name="google-site-verification" content="ZTtm7fnxRe67LjqiIKY1mZ_knPSNv5py9KArnXI16D8" />
+
+  <!-- og tags -->
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{% if page.title %} {{ site.name }} | {{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:locale" content="{{ site.lang }}">
+  {% if page.og-image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.og-image }}">
+  {% else %}
+    {% if page.cover-image %}
+      <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.cover-image }}">
+    {% else %}
+      <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/og-image.jpg">
+    {% endif %}
+  {% endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:description" content="
+  {% if page.summary %}
+  {{ page.summary }}
+  {% else %}
+  {{ site.description.meta }}
+  {% endif %}">
+  <!-- /og tags -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="/css/nkd.css">
+  <link rel="stylesheet" href="/css/i.css">
+
+  <script src="/js/jquery-2.1.1.js"></script>
+  <script src="/js/typed.js"></script>
+  <script src="/js/fitvids.js"></script>
+</head>
