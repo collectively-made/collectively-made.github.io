@@ -10,8 +10,7 @@ permalink: /purpose/
 
 **We work on everything** from website & mobile application design, to kiosk hardware.
 
-
-
+**We work for fun**
 
 
 
