@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Viewer
+title: QIS Data Viewer Tool
 category: QIS
 cover-image: performance-dashboard.jpg
 subtitle: Reducing the number of steps needed to view performance.

@@ -7,6 +7,23 @@
 		<atom:link href="http://www.collectivelymade.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Quality Improvement Solutions</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;/img/work/QIS/iTunesArtwork@2x.png&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 01 May 2016 00:00:00 -0500</pubDate>
+				<link>http://www.collectivelymade.com/projects/qis</link>
+				<guid isPermaLink="true">http://www.collectivelymade.com/projects/qis</guid>
+			</item>
+		
+			<item>
 				<title>Student Engagement App</title>
 				
 					
@@ -26,7 +43,7 @@
 			</item>
 		
 			<item>
-				<title>Data Viewer</title>
+				<title>QIS Data Viewer Tool</title>
 				
 					
 						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
@@ -43,7 +60,7 @@
 			</item>
 		
 			<item>
-				<title>Web Form Submitter</title>
+				<title>QIS Web Form Submitter Tool</title>
 				
 					
 						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
@@ -84,7 +101,7 @@
 					
 				
 				
-					<description>&lt;p&gt;In 2014, we were selected to team up with Mowdo and help them create a prototype in order to validate their idea and help them pitch to investors. Mowdo was taking part in Lincoln’s very own “Demo Day” and believed that rapid prototyping a proof of concept would give them a leg up in their goal of generating money and interest. We identified a variety of features that would give users an end-to-end experience in the mobile app. Due to budget and time constraints, we opted not to build anything but rather conceptualize what this app might look like. We designed over 50 screen states that were stitched together for a presentation.&lt;/p&gt;
+					<description>&lt;p&gt;We were selected to team up with Mowdo and help them create a prototype in order to validate their idea and help them pitch to investors. Mowdo was taking part in Lincoln’s very own “Demo Day” and believed that rapid prototyping a proof of concept would give them a leg up in their goal of generating money and interest. We identified a variety of features that would give users an end-to-end experience in the mobile app. Due to budget and time constraints, we opted not to build anything but rather conceptualize what this app might look like. We designed over 50 screen states that were stitched together for a presentation.&lt;/p&gt;
 
 </description>
 				

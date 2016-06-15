@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Form Submitter
+title: QIS Web Form Submitter Tool
 category: QIS
 cover-image: web-form-submitter.jpg
 subtitle: Designing an efficient way to collect and submit information.
