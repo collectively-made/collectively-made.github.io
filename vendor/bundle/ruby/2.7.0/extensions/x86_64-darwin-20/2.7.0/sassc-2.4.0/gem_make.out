@@ -1,5 +1,5 @@
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201212-97715-1up2agz.rb extconf.rb
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201212-71808-h013uz.rb extconf.rb
 creating Makefile
 
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20201212-97715-1hylp74/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20201212-71808-k2lp0s/sassc

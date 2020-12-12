@@ -1,5 +1,5 @@
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201212-90081-1j6xio6.rb extconf.rb
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201212-71808-qjv6yj.rb extconf.rb
 creating Makefile
 
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -8,13 +8,9 @@ make "DESTDIR=" clean
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR="
 compiling ruby_http_parser.c
-warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
-1 warning generated.
 compiling ryah_http_parser.c
-warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
-1 warning generated.
 linking shared-object ruby_http_parser.bundle
 
 current directory: /Users/alexanderrussell/Documents/GitHub/collectively-made.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20201212-90081-1hi6tpj
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20201212-71808-n8b5nn
