@@ -1,114 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title></title>
-		<description></description>
-		<link>http://www.collectivelymade.com</link>
-		<atom:link href="http://www.collectivelymade.com/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Quality Improvement Solutions</title>
-				
-					
-						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
-					
-				
-				
-					<description>&lt;p&gt;&lt;img src=&quot;/img/work/QIS/iTunesArtwork@2x.png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-12T14:52:22-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Collectively Made</title><subtitle>Collectively Made is a digital product agency helping companies create great experiences with technology.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-03T14:46:08-06:00</published><updated>2020-12-03T14:46:08-06:00</updated><id>http://localhost:4000/jekyll/update/2020/12/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Sun, 01 May 2016 00:00:00 -0500</pubDate>
-				<link>http://www.collectivelymade.com/projects/qis</link>
-				<guid isPermaLink="true">http://www.collectivelymade.com/projects/qis</guid>
-			</item>
-		
-			<item>
-				<title>Student Engagement App</title>
-				
-					
-						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
-					
-				
-				
-					<description>&lt;h2 id=&quot;goal&quot;&gt;Goal:&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;more responsive student technology services.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Sun, 27 Sep 2015 00:00:00 -0500</pubDate>
-				<link>http://www.collectivelymade.com/student-engagemnet-app</link>
-				<guid isPermaLink="true">http://www.collectivelymade.com/student-engagemnet-app</guid>
-			</item>
-		
-			<item>
-				<title>QIS Data Viewer Tool</title>
-				
-					
-						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
-					
-				
-				
-					<description>&lt;p&gt;QIS staff need the ability to view the performance of locations to make informed decisions about improving their quality. To do that we created a system that would aggregate the submissions collected, allowing staff to measure areas against each other and against time. Because most questions are Yes or No questions, we can measure quality of service by looking at the percent of ‘yes’ answers given.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Thu, 10 Sep 2015 00:00:00 -0500</pubDate>
-				<link>http://www.collectivelymade.com/data-viewer</link>
-				<guid isPermaLink="true">http://www.collectivelymade.com/data-viewer</guid>
-			</item>
-		
-			<item>
-				<title>QIS Web Form Submitter Tool</title>
-				
-					
-						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
-					
-				
-				
-					<description>&lt;p&gt;&lt;img src=&quot;/img/form-submitter-1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Sat, 05 Sep 2015 00:00:00 -0500</pubDate>
-				<link>http://www.collectivelymade.com/web-form-submitter</link>
-				<guid isPermaLink="true">http://www.collectivelymade.com/web-form-submitter</guid>
-			</item>
-		
-			<item>
-				<title>Kiosk</title>
-				
-					
-						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
-					
-				
-				
-					<description>&lt;p&gt;&amp;lt;!– Scan NCARD for quick information about the student.&lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-</description>
-				
-				<pubDate>Wed, 22 Jul 2015 00:00:00 -0500</pubDate>
-				<link>http://www.collectivelymade.com/kiosk</link>
-				<guid isPermaLink="true">http://www.collectivelymade.com/kiosk</guid>
-			</item>
-		
-			<item>
-				<title>Mowdo App Prototype</title>
-				
-					
-						<dc:creator>{&quot;name&quot;=&gt;&quot;Collectively Made&quot;, &quot;email&quot;=&gt;&quot;hello@collectivelymade.com&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
-					
-				
-				
-					<description>&lt;p&gt;We were selected to team up with Mowdo and help them create a prototype in order to validate their idea and help them pitch to investors. Mowdo was taking part in Lincoln’s very own “Demo Day” and believed that rapid prototyping a proof of concept would give them a leg up in their goal of generating money and interest. We identified a variety of features that would give users an end-to-end experience in the mobile app. Due to budget and time constraints, we opted not to build anything but rather conceptualize what this app might look like. We designed over 50 screen states that were stitched together for a presentation.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-</description>
-				
-				<pubDate>Tue, 15 Jul 2014 00:00:00 -0500</pubDate>
-				<link>http://www.collectivelymade.com/mowdo</link>
-				<guid isPermaLink="true">http://www.collectivelymade.com/mowdo</guid>
-			</item>
-		
-	</channel>
-</rss>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

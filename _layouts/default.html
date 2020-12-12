@@ -1,8 +1,12 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-  {% include _head.html %}
-  <body>
-    <a href="mailto:hello@collectivelymade.com" class="contact none">Contact</a>
-    {{ content }}
-  </body>
+
+<!DOCTYPE html>
+<html lang="en">
+
+    {%- include head.html -%}
+    {% include header.html %}
+
+    <body>
+        {{ content }}
+    </body>
+
 </html>
