@@ -13,23 +13,17 @@ h1, h2, h3 {
     color: #0C0C0D;
 }
 h1 {
-    font-size: 64px;
-    letter-spacing: -0.042em;
-    line-height: 0.9;
-    margin-bottom: 1.2rem;
+    font-size: 48px;
+    line-height: 56px;
 }
-@media (min-width: 48em) {
-    h1 {
-        font-size: 72px;
-    }
-}
+
 h2 {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 40px;
 }
 h3 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 32px;
 }
 label {
     font-weight: bold;
@@ -80,14 +74,21 @@ ul, ol {
     margin: 0;
     padding: 0;
 }
+article ul, article ol {
+    list-style-type: disc;
+    margin: 1.2rem;
+}
+article li {
+    margin-bottom: 1.5rem;
+}
 body {
     margin: 0;
 }
 section {
     margin-bottom: 6rem;
 }
-section.shaded {
-    background: #ededed;
+.shaded {
+    background: #eaeded;
 }
 .container {
     padding: 0 2rem;   
@@ -106,7 +107,7 @@ header nav {
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    max-width: 60rem; 
+    max-width: 84rem; 
     margin-bottom: 0;
     padding: 0 2rem
 }
@@ -135,6 +136,37 @@ figure {
 figure img { 
     width: 100%;
     height: auto;
+}
+footer {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    opacity: 0.6;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #4B4B4B;
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+footer a:hover {
+    color: #0C0C0D;
+    text-decoration: underline;
+    background-color:transparent;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 .relative {
@@ -194,6 +226,18 @@ a.cta {
     }
 }
 
+.hero h1 {
+    font-size: 64px;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 1.2rem;
+}
+@media (min-width: 48em) {
+    .hero h1 {
+        font-size: 72px;
+    }
+}
+
 
 /* Work Section */
 
@@ -238,6 +282,7 @@ ul.chips li {
     grid-gap: 1rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    border-radius: 0;
 
 }
 .logos header {
@@ -249,7 +294,7 @@ ul.chips li {
     grid-template-columns: repeat(2, 1fr);
 }
 .logos ul li {
-    background:#dedede;
+    background: #CAD2D4;
     padding: 0 1.5rem;
     height: 8rem;
     display: flex;
@@ -265,6 +310,7 @@ ul.chips li {
 @media (min-width: 60em) {
     .logos {
         grid-template-columns: 1fr 2fr;
+        border-radius: 1rem;
     }
     .logos header {
         max-width: 14rem;
@@ -300,4 +346,19 @@ ul.chips li {
 
 .services figure img {
     max-height: 6rem;
+}
+
+
+/* Contact Section */
+
+.contact {
+    padding-top:4rem;
+    padding-bottom:6rem;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+@media (min-width: 60em) {
+    .contact {
+        border-radius: 1rem;
+    }
 }
