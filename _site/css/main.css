@@ -36,6 +36,9 @@ p {
     font-size: 16px;
     line-height: 24px;
 }
+small {
+    font-size: 0.75rem;
+}
 a {
     color: #4B4B4B;
     text-decoration: none;
@@ -120,14 +123,39 @@ nav a.logo {
     background-color: transparent;
     padding: 0;
 }
+
+.logo img {
+    max-width: 200px;
+}
 nav a.logo:hover {
     opacity: 0.6;
     cursor: pointer;
 }
+
+footer {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    opacity: 0.6;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer li { margin-top: 1rem;}
+
 @media (min-width: 48em) {
     header nav {
         padding:0 4rem;
         margin-bottom: 4rem;
+    }
+    footer ul {
+        flex-wrap: nowrap;
+    }
+    footer li {
+        width: 100%;
     }
 }
 figure {
@@ -137,15 +165,7 @@ figure img {
     width: 100%;
     height: auto;
 }
-footer {
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    opacity: 0.6;
-}
-footer ul {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 footer a {
     color: #4B4B4B;
