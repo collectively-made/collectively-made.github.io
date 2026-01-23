@@ -1,8 +1,8 @@
-title: Collectively Made
-email: alex@collectivelymade.com
+title: Foldaway
+email: hello@foldaway.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Collectively Made is a digital product agency helping companies create great experiences with technology.
-url: "http://www.collectivelymade.com"
+  It all started from the foldaway table in Duncan's room. Silly pointless projects by friends.
+url: "https://collectively-made.github.io"
 baseurl: ""
 
 # Build settings
