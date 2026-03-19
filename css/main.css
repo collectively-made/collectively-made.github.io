@@ -1,71 +1,174 @@
 /* Custom Fonts */
 @font-face {
-    font-family: 'Dempsey';
-    src: url('../fonts/Dempsey_allcaps-Regular.otf') format('opentype');
+    font-family: 'PP Mondwest';
+    src: url('../fonts/PPMondwest-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-/* shadcn/ui CSS Variables */
-@layer base {
-    :root {
-        --background: 0 0% 100%;
-        --foreground: 0 0% 7.1%;
-        --card: 0 0% 100%;
-        --card-foreground: 0 0% 7.1%;
-        --popover: 0 0% 100%;
-        --popover-foreground: 0 0% 7.1%;
-        --primary: 0 0% 9%;
-        --primary-foreground: 0 0% 98%;
-        --secondary: 0 0% 96.1%;
-        --secondary-foreground: 0 0% 9%;
-        --muted: 0 0% 96.1%;
-        --muted-foreground: 0 0% 45.1%;
-        --accent: 0 0% 96.1%;
-        --accent-foreground: 0 0% 9%;
-        --destructive: 0 84.2% 60.2%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 89.8%;
-        --input: 0 0% 89.8%;
-        --ring: 0 0% 7.1%;
-        --radius: 0.5rem;
-    }
-
-    .dark {
-        --background: 0 0% 7.1%;
-        --foreground: 0 0% 98%;
-        --card: 0 0% 7.1%;
-        --card-foreground: 0 0% 98%;
-        --popover: 0 0% 7.1%;
-        --popover-foreground: 0 0% 98%;
-        --primary: 0 0% 98%;
-        --primary-foreground: 0 0% 9%;
-        --secondary: 0 0% 14.9%;
-        --secondary-foreground: 0 0% 98%;
-        --muted: 0 0% 14.9%;
-        --muted-foreground: 0 0% 63.9%;
-        --accent: 0 0% 14.9%;
-        --accent-foreground: 0 0% 98%;
-        --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 14.9%;
-        --input: 0 0% 14.9%;
-        --ring: 0 0% 83.1%;
-    }
+/* Design tokens — matched to alexanderrussell.com */
+:root {
+    --color-bg-primary: oklch(97% .003 56);
+    --color-bg-secondary: oklch(93% .005 48);
+    --color-text-primary: oklch(21.6% .006 56.043);
+    --color-text-secondary: color-mix(in srgb, oklch(21.6% .006 56.043) 60%, transparent);
+    --color-accent: #FF4000;
+    --color-border: oklch(91% .008 58);
 }
 
-@layer base {
-    * {
-        @apply border-border;
-    }
-    
-    body {
-        @apply bg-background text-foreground;
-        font-feature-settings: "rlig" 1, "calt" 1;
-    }
-    
-    h1 {
-        font-family: 'Dempsey', 'Inter', sans-serif;
-    }
+.dark {
+    --color-bg-primary: oklch(21.6% .006 56.043);
+    --color-bg-secondary: oklch(26.8% .007 34.298);
+    --color-text-primary: oklch(92.3% .003 48.717);
+    --color-text-secondary: color-mix(in srgb, oklch(92.3% .003 48.717) 70%, transparent);
+    --color-accent: #FF6333;
+    --color-border: oklch(38% .010 55);
+}
+
+* {
+    border-color: var(--color-border);
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+h1 {
+    font-family: 'PP Mondwest', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Text colors */
+.text-primary { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+
+/* Labels (JetBrains Mono) */
+.label {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Service cards */
+.service-card {
+    border: 1px solid var(--color-border);
+    border-radius: 3px;
+    padding: 1rem;
+    transition: background-color 150ms ease;
+}
+
+.service-card:hover {
+    background-color: var(--color-bg-secondary);
+}
+
+/* Consultation cards (disabled state) */
+.consultation-card {
+    border: 1px solid var(--color-border);
+    border-radius: 3px;
+    padding: 1rem;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Consultation cascade animation */
+.consultation-panel {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: grid-template-rows 0.35s ease, opacity 0.25s ease;
+    overflow: hidden;
+}
+
+.consultation-panel > div {
+    overflow: hidden;
+}
+
+.consultation-panel.open {
+    grid-template-rows: 1fr;
+    opacity: 1;
+}
+
+.consultation-panel.open .consultation-card {
+    transform: translateY(0);
+    opacity: 0.5;
+}
+
+.consultation-panel.open .consultation-card:nth-child(1) {
+    transition-delay: 0.08s;
+}
+
+.consultation-panel.open .consultation-card:nth-child(2) {
+    transition-delay: 0.16s;
+}
+
+.consultation-panel.open .consultation-card:nth-child(3) {
+    transition-delay: 0.24s;
+}
+
+/* Client logos */
+.client-logo {
+    opacity: 0.5;
+    filter: invert(1);
+    transition: opacity 0.2s ease;
+    object-fit: contain;
+    height: 24px;
+    max-width: 100px;
+    width: auto;
+}
+
+.dark .client-logo {
+    filter: none;
+    opacity: 0.45;
+}
+
+/* Logo carousel */
+.logo-carousel {
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+}
+
+.logo-track {
+    display: flex;
+    gap: 2.5rem;
+    animation: scroll-left 30s linear infinite;
+    width: max-content;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Toast */
+.toast {
+    background-color: var(--color-text-primary);
+    color: var(--color-bg-primary);
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 12px;
+    padding: 0.5rem 0.85rem;
+    border-radius: 999px;
+}
+
+/* Footer links */
+.footer-link {
+    color: var(--color-text-secondary);
+    transition: color 150ms ease;
+}
+
+.footer-link:hover {
+    color: var(--color-text-primary);
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+    background-color: var(--color-accent);
+    color: white;
 }

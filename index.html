@@ -2,35 +2,132 @@
 layout: default
 ---
 
-<main class="min-h-screen pt-20">
-    <div class="max-w-3xl mx-auto px-6 py-12">
-        <!-- Header with Logo and Title -->
-        <div class="mb-12">
-            <div class="flex flex-col gap-2 items-start">
-                <svg class="h-12 w-auto text-foreground" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="Collectively Made Logo">
-                    <g>
-                        <path fill="currentColor" d="M3.4,55.3c0.4-17,14.1-41.4,27.7-41.4c5.4,0,9,4.6,8.5,9.8c-0.3,2.6-1.3,4-3.1,4.6c-2,0.6-3.7,0.1-5-1.5c-1.8-1.8-2.3-3.2-4.5-1.4c-5.9,4.3-12.5,17.3-14,25.9c-0.8,4.3,0.3,8.2,3.7,5.7c2.8-1.9,4-3.2,6.1-3.2c2.4,0,4.3,2,4.3,4.6c0,4.7-8,9.2-13.8,9.2C6.3,67.6,3.4,61.7,3.4,55.3z"/>
-                        <path fill="currentColor" d="M76.4,62c0.1-4.3,2.8-11.7,5.7-22.9c0.5-1.9-1.8-2.7-2.9-1.2c-1.3,1.7-5.7,8.4-6.9,9.3c-3.2,3.2-7.3,2.4-8.8-1.9c-1.1-2.7-1.6-12.5-4.6-12.5c-2.4,0-6.5,13.8-8.2,21.4c-0.9,4.2-3.2,6.1-6.1,5.5c-2.2-0.6-3.7-2.9-3.4-5.4c0.1-1.6,0.5-3.1,0.9-4.6c2.8-9.6,9-29.1,12.2-33.5c2.4-3.1,6.1-3.3,8.8-0.4c2.4,2.3,3.9,7.1,6,12.2c1.1,2.9,2.5,3.1,4.6,0.5l5.2-6.5c7.3-8.9,10.8-11,14.5-9c3.6,1.7,3.9,5.4,1.9,13.1c-4.1,16.2-9.3,36.1-10.2,38.1c-1.1,2.2-3.2,3.1-5.5,2.6C77.3,66.2,76.4,64.6,76.4,62z"/>
-                    </g>
-                    <g>
-                        <path fill="#FF4000" d="M81.6,87.6c-4.3,0-6.5-2.5-8-4.1c-1.4-1.5-1.8-1.9-2.9-1.9c-1.1,0-1.5,0.4-2.8,1.9c-1.5,1.7-3.8,4.1-8,4.1s-6.5-2.5-8-4.1C50.4,82,50,81.6,49,81.6c-1.1,0-1.5,0.4-2.8,1.9c-1.5,1.7-3.8,4.1-8,4.1c-4.3,0-6.5-2.5-8-4.1c-1.4-1.5-1.8-1.9-2.8-1.9s-1.5,0.4-2.8,1.9c-1.5,1.7-3.8,4.1-8,4.1c-4.3,0-6.5-2.5-8-4.1c-1.4-1.5-1.8-1.9-2.8-1.9c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5c4.3,0,6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.8,1.9c1.1,0,1.5-0.4,2.8-1.9c1.5-1.7,3.8-4.1,8-4.1s6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.8,1.9c1.1,0,1.5-0.4,2.8-1.9c1.5-1.7,3.8-4.1,8-4.1c4.3,0,6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.8,1.9s1.5-0.4,2.8-1.9c1.5-1.7,3.8-4.1,8-4.1c4.3,0,6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.9,1.9s1.5-0.4,2.9-1.9c1.5-1.7,3.8-4.1,8-4.1c1.9,0,3.5,1.6,3.5,3.5s-1.6,3.5-3.5,3.5c-1.1,0-1.5,0.4-2.9,1.9C88.1,85.1,85.9,87.6,81.6,87.6z"/>
-                    </g>
-                </svg>
+<main class="flex justify-center w-full px-3">
+    <div class="flex flex-col w-full max-w-[650px] mt-[3rem] mb-[6rem]">
+
+        <!-- Logo -->
+        <div class="mb-10">
+            <svg class="h-12 w-auto" style="color: var(--color-text-primary)" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="Collectively Made Logo">
+                <g>
+                    <path fill="currentColor" d="M3.4,55.3c0.4-17,14.1-41.4,27.7-41.4c5.4,0,9,4.6,8.5,9.8c-0.3,2.6-1.3,4-3.1,4.6c-2,0.6-3.7,0.1-5-1.5c-1.8-1.8-2.3-3.2-4.5-1.4c-5.9,4.3-12.5,17.3-14,25.9c-0.8,4.3,0.3,8.2,3.7,5.7c2.8-1.9,4-3.2,6.1-3.2c2.4,0,4.3,2,4.3,4.6c0,4.7-8,9.2-13.8,9.2C6.3,67.6,3.4,61.7,3.4,55.3z"/>
+                    <path fill="currentColor" d="M76.4,62c0.1-4.3,2.8-11.7,5.7-22.9c0.5-1.9-1.8-2.7-2.9-1.2c-1.3,1.7-5.7,8.4-6.9,9.3c-3.2,3.2-7.3,2.4-8.8-1.9c-1.1-2.7-1.6-12.5-4.6-12.5c-2.4,0-6.5,13.8-8.2,21.4c-0.9,4.2-3.2,6.1-6.1,5.5c-2.2-0.6-3.7-2.9-3.4-5.4c0.1-1.6,0.5-3.1,0.9-4.6c2.8-9.6,9-29.1,12.2-33.5c2.4-3.1,6.1-3.3,8.8-0.4c2.4,2.3,3.9,7.1,6,12.2c1.1,2.9,2.5,3.1,4.6,0.5l5.2-6.5c7.3-8.9,10.8-11,14.5-9c3.6,1.7,3.9,5.4,1.9,13.1c-4.1,16.2-9.3,36.1-10.2,38.1c-1.1,2.2-3.2,3.1-5.5,2.6C77.3,66.2,76.4,64.6,76.4,62z"/>
+                </g>
+                <g>
+                    <path fill="currentColor" style="color: var(--color-accent)" d="M81.6,87.6c-4.3,0-6.5-2.5-8-4.1c-1.4-1.5-1.8-1.9-2.9-1.9c-1.1,0-1.5,0.4-2.8,1.9c-1.5,1.7-3.8,4.1-8,4.1s-6.5-2.5-8-4.1C50.4,82,50,81.6,49,81.6c-1.1,0-1.5,0.4-2.8,1.9c-1.5,1.7-3.8,4.1-8,4.1c-4.3,0-6.5-2.5-8-4.1c-1.4-1.5-1.8-1.9-2.8-1.9s-1.5,0.4-2.8,1.9c-1.5,1.7-3.8,4.1-8,4.1c-4.3,0-6.5-2.5-8-4.1c-1.4-1.5-1.8-1.9-2.8-1.9c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5c4.3,0,6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.8,1.9c1.1,0,1.5-0.4,2.8-1.9c1.5-1.7,3.8-4.1,8-4.1s6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.8,1.9c1.1,0,1.5-0.4,2.8-1.9c1.5-1.7,3.8-4.1,8-4.1c4.3,0,6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.8,1.9s1.5-0.4,2.8-1.9c1.5-1.7,3.8-4.1,8-4.1c4.3,0,6.5,2.5,8,4.1c1.4,1.5,1.8,1.9,2.9,1.9s1.5-0.4,2.9-1.9c1.5-1.7,3.8-4.1,8-4.1c1.9,0,3.5,1.6,3.5,3.5s-1.6,3.5-3.5,3.5c-1.1,0-1.5,0.4-2.9,1.9C88.1,85.1,85.9,87.6,81.6,87.6z"/>
+                </g>
+            </svg>
+        </div>
+
+        <!-- Bio -->
+        <p class="text-[15px] text-secondary leading-relaxed mb-10">
+            A cooperative of designers, engineers, and strategists. We leverage our collective structure to curate the best talent and collaborate as an agile unit — to build things that are truly <span class="font-semibold text-primary">Collectively Made</span>.
+        </p>
+
+        <!-- Services -->
+        <div class="space-y-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <a href="https://cal.com/collectively/discovery" target="_blank" rel="noopener noreferrer" class="block service-card">
+                    <div class="flex items-center gap-2 mb-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" class="shrink-0"><path d="M2 8h2v12H2zm18 0h2v12h-2zM4 6h16v2H4zm0 14h16v2H4zM8 4h2v2H8zm2-2h4v2h-4zm4 2h2v2h-2z"/></svg>
+                        <span class="text-sm font-medium text-primary">Hire the collective</span>
+                    </div>
+                    <p class="text-sm text-secondary pl-[1.5rem]">Schedule a 15-minute project discovery call to see if there's a fit.</p>
+                </a>
+
+                <button id="consultation-toggle" class="w-full text-left service-card cursor-pointer">
+                    <div class="flex items-center gap-2 mb-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" class="shrink-0"><path d="M3 21h6v-2h2v4H1v-4h2v2Zm20 2H13V13h10v10Zm-8-2h6v-6h-6v6ZM5 19H3v-4h2v4Zm4 0H7v-4h2v4Zm-2-4H5v-2h2v2Zm2-4H3V9h6v2Zm6 0h-2V9h2v2Zm8 0h-2V9h2v2ZM3 9H1V3h2v6Zm8 0H9V3h2v6Zm6 0h-2V7h2v2Zm4 0h-2V7h2v2Zm-2-2h-2V5h2v2Zm-2-2h-2V3h2v2Zm4 0h-2V3h2v2ZM9 3H3V1h6v2Zm6 0h-2V1h2v2Zm8 0h-2V1h2v2Z"/></svg>
+                        <span class="text-sm font-medium text-primary">Book a consultation</span>
+                    </div>
+                    <p class="text-sm text-secondary pl-[1.5rem]">Expert advice on product, design, or engineering — pick a format.</p>
+                </button>
+            </div>
+
+            <!-- Consultation options (hidden by default, animated) -->
+            <div id="consultation-options" class="consultation-panel pl-4 ml-2" style="border-left: 2px solid var(--color-border)">
+                <div class="space-y-2">
+                    <button onclick="showToast()" class="consultation-card w-full text-left cursor-default">
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-sm font-medium text-secondary">1-on-1 Call</span>
+                            <span class="label text-xs text-secondary">$250/hr</span>
+                        </div>
+                        <p class="text-sm text-secondary">60-minute video call with personalized strategic guidance.</p>
+                    </button>
+                    <button onclick="showToast()" class="consultation-card w-full text-left cursor-default">
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-sm font-medium text-secondary">Growth</span>
+                            <span class="label text-xs text-secondary">$1,000/mo</span>
+                        </div>
+                        <p class="text-sm text-secondary">Up to 4 calls monthly, priority async support, ongoing advisory.</p>
+                    </button>
+                    <button onclick="showToast()" class="consultation-card w-full text-left cursor-default">
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="text-sm font-medium text-secondary">Momentum</span>
+                            <span class="label text-xs text-secondary">$2,000/mo</span>
+                        </div>
+                        <p class="text-sm text-secondary">Up to 8 calls monthly, direct access, high-touch guidance.</p>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <!-- About Section -->
-        <section class="mb-12">
-            <div class="space-y-4">
-                <p class="text-[15px] leading-relaxed text-muted-foreground">
-                    Operating as a worker-owned cooperative allows us to leverage 
-                    the collective structure to curate the best talent and collaborate as an agile unit; to build
-                     things that are truly <span class="font-semibold text-foreground">Collectively Made</span>.
-                </p>
+        <!-- Companies -->
+        <div class="mt-16">
+            <p class="text-sm font-medium text-primary text-center mb-7">Worked with companies like</p>
+            <div class="logo-carousel">
+                <div class="logo-track">
+                    <img src="/img/logos/adidas_white.svg" alt="Adidas" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/Omaha_steaks_white.svg" alt="Omaha Steaks" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/OR_white.svg" alt="Outdoor Research" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/University_of_Nebraska–Lincoln_logo 1.svg" alt="University of Nebraska–Lincoln" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/city-of-lnk-logo.svg" alt="City of Lincoln" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/ILC-logo.svg" alt="ILC" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/marriott_white.svg" alt="Marriott International" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/archrival_white.svg" alt="Archrival" class="px-2 client-logo shrink-0">
+                    <!-- Duplicate for seamless loop -->
+                    <img src="/img/logos/adidas_white.svg" alt="Adidas" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/Omaha_steaks_white.svg" alt="Omaha Steaks" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/OR_white.svg" alt="Outdoor Research" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/University_of_Nebraska–Lincoln_logo 1.svg" alt="University of Nebraska–Lincoln" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/city-of-lnk-logo.svg" alt="City of Lincoln" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/ILC-logo.svg" alt="ILC" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/marriott_white.svg" alt="Marriott International" class="px-2 client-logo shrink-0">
+                    <img src="/img/logos/archrival_white.svg" alt="Archrival" class="px-2 client-logo shrink-0">
+                </div>
             </div>
-        </section>
+        </div>
 
-        <!-- Projects Section -->
-        
     </div>
 </main>
+
+<!-- Toast -->
+<div id="toast" class="toast fixed bottom-6 left-1/2 -translate-x-1/2 shadow-lg opacity-0 pointer-events-none transition-all duration-300 translate-y-2">
+    Coming soon
+</div>
+
+<script>
+    // Consultation toggle with cascade animation
+    const toggle = document.getElementById('consultation-toggle');
+    const options = document.getElementById('consultation-options');
+    let isOpen = false;
+
+    toggle.addEventListener('click', () => {
+        isOpen = !isOpen;
+        if (isOpen) {
+            options.classList.add('open');
+        } else {
+            options.classList.remove('open');
+        }
+    });
+
+    // Toast
+    function showToast() {
+        const toast = document.getElementById('toast');
+        toast.classList.remove('opacity-0', 'translate-y-2');
+        toast.classList.add('opacity-100', 'translate-y-0');
+        setTimeout(() => {
+            toast.classList.remove('opacity-100', 'translate-y-0');
+            toast.classList.add('opacity-0', 'translate-y-2');
+        }, 1500);
+    }
+</script>
