@@ -1,1 +1,0 @@
-# collectively-made.github.io
