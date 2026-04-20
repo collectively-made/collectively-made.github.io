@@ -2,30 +2,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+    {%- assign page_title = page.title | default: site.title -%}
+    {%- assign page_description = page.description | default: site.description -%}
+    {%- assign page_og_image = page.og_image | default: "/img/main/lead.png" -%}
+    {%- assign page_url = site.url | append: site.baseurl | append: page.url -%}
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ page_description }}">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Collectively Made" />
     <meta name="google-site-verification" content="ZTtm7fnxRe67LjqiIKY1mZ_knPSNv5py9KArnXI16D8" />
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/main/lead.png">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page_og_image }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}/">
-    <meta property="twitter:title" content="{{ site.title }}">
-    <meta property="twitter:description" content="{{ site.description }}">
-    <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/img/main/lead.png">
+    <meta property="twitter:url" content="{{ page_url }}">
+    <meta property="twitter:title" content="{{ page_title }}">
+    <meta property="twitter:description" content="{{ page_description }}">
+    <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page_og_image }}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap" rel="stylesheet">
     
     <!-- Theme Script (must run before page renders) -->
     <script>
