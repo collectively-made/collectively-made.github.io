@@ -267,11 +267,12 @@ html {
     font-family: var(--font-display);
     font-weight: 500;
     font-size: clamp(2.75rem, 5.5vw + 1rem, 5.75rem);
-    line-height: 1.02;
-    letter-spacing: -0.012em;
+    line-height: 0.96;
+    letter-spacing: -0.015em;
     color: var(--color-text-primary);
     margin-top: 1.5rem;
     margin-bottom: 1.75rem;
+    max-width: 60rem;
     text-wrap: pretty;
 }
 
@@ -498,6 +499,7 @@ html {
     margin: 0;
     display: grid;
     gap: 1rem;
+    max-width: 42rem;
 }
 
 .ops-list li {
@@ -542,6 +544,7 @@ html {
     color: var(--color-text-primary);
     background-color: transparent;
     font-variant-numeric: tabular-nums;
+    max-width: 42rem;
 }
 
 /* How it works — four cards in a 2-column grid */
@@ -562,6 +565,7 @@ html {
 .ops-faq {
     display: grid;
     gap: 0;
+    max-width: 44rem;
 }
 
 .ops-faq details {
@@ -633,6 +637,7 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    max-width: 44rem;
 }
 
 @media (min-width: 640px) {
