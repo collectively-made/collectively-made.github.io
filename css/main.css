@@ -391,6 +391,13 @@ html {
     border-color: var(--color-text-primary);
 }
 
+.ops-btn--disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    pointer-events: none;
+    user-select: none;
+}
+
 .ops-btn-arrow {
     display: inline-block;
     transition: transform 150ms ease;
