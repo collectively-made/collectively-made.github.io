@@ -659,6 +659,11 @@ html {
     margin-top: 0.875rem;
 }
 
+.ops-final-item .ops-card-label {
+    text-transform: none;
+    letter-spacing: 0.06em;
+}
+
 /* Case studies placeholder — pullquote pattern */
 .ops-case-note {
     margin-top: 1.25rem;
