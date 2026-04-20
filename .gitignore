@@ -3,3 +3,8 @@ vendor/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.DS_Store
+.playwright-mcp/
+# Iteration screenshots from local design work
+ops-*.png
+home-*.png
