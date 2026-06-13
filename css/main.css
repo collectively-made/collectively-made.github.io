@@ -783,3 +783,96 @@ html {
         transition: none;
     }
 }
+
+/* Single "start a conversation" CTA — primary button + quiet whisper line.
+   Replaces the two-up ops-final grid when there's one primary path. */
+.ops-cta-solo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.ops-cta-whisper {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+.ops-cta-whisper a {
+    color: var(--color-text-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}
+
+.ops-cta-whisper a:hover {
+    text-decoration-color: var(--color-text-secondary);
+}
+
+.ops-cta-note {
+    margin: 0.25rem 0 0;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+}
+
+.ops-cta-note::before {
+    content: "// ";
+    color: var(--color-border);
+}
+
+/* Quiet inline text link inside body/FAQ copy */
+.ops-inline-link {
+    color: var(--color-text-primary);
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--color-border);
+    transition: text-decoration-color 150ms ease;
+}
+
+.ops-inline-link:hover {
+    text-decoration-color: var(--color-text-primary);
+}
+
+.ops-inline-link .ops-btn-arrow {
+    display: inline-block;
+    transition: transform 150ms ease;
+}
+
+.ops-inline-link:hover .ops-btn-arrow {
+    transform: translateX(2px);
+}
+
+/* Back link on worked-example / sub-pages */
+.ops-backlink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 150ms ease;
+}
+
+.ops-backlink:hover {
+    color: var(--color-text-primary);
+}
+
+.ops-backlink .ops-backlink-arrow {
+    transition: transform 150ms ease;
+}
+
+.ops-backlink:hover .ops-backlink-arrow {
+    transform: translateX(-2px);
+}
